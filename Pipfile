@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 pydantic = "*"
+requests = "*"
+yagmail = "*"
+pandas = "*"
+xlrd = "*"
+openpyxl = "*"
 
 [dev-packages]
 pytest-cov = "*"
@@ -15,6 +20,7 @@ flake8-bandit = "*"
 safety = "*"
 pre-commit = "*"
 flake8-black = "*"
+types-requests = "*"
 
 [requires]
 python_version = "3.9"
